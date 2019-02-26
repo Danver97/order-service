@@ -1,0 +1,32 @@
+{
+  "name": "order-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "mocha",
+    "test-coverage": "nyc mocha"
+  },
+  "author": "Christian Paesante",
+  "license": "ISC",
+  "dependencies": {
+    "@danver97/event-sourcing": "^1.1.2",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "implemented": "^1.0.0",
+    "jsonwebtoken": "^8.5.0",
+    "promisify-cb": "^1.0.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-strongloop": "^2.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "mocha": "^6.0.2",
+    "nyc": "^13.3.0",
+    "supertest": "^3.4.2"
+  }
+}
